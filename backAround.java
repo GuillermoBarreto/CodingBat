@@ -6,5 +6,7 @@
 //backAround("a") -> "aaa"
 
 public String backAround(String str) {
-    
+    //we need to get the last char 
+    String last = str.substring(str.length() - 1);
+
 }
