@@ -5,9 +5,6 @@
 //sleepIn(true, false) → false
 //sleepIn(false, true) → true
 
-
-
-
 public boolean sleepIn(boolean weekday, boolean vacation) {
     return !weekday || vacation;
 }
