@@ -6,5 +6,5 @@
 // makes10(1, 9) → true
 
 public boolean makes10(int a, int b) {
-    (a == 10 || b == 10 || (a + b) == 10);
+    return (a == 10 || b == 10 || (a + b) == 10);
 }
