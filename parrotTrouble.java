@@ -5,6 +5,6 @@
 // parrotTrouble(true, 7) → false
 // parrotTrouble(false, 6) → false
 
-public boolean parrtoTrouble(boolean talking, int hour) {
+public boolean parrotTrouble(boolean talking, int hour) {
     return talking && (hour < 7 || hour > 20);
 }
